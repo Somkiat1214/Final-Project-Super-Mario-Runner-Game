@@ -1,0 +1,26 @@
+body {
+    background-color: gray;
+    text-align: center;
+  }
+  #board {
+    background-image: url('./Image/block.jpg');
+    background-size: cover;
+    background-position: center;
+    
+  }
+
+button {
+    width: 160px;
+    height: 45px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+    background-color: greenyellow;
+    color: darkgreen;
+    border: none;
+    border-radius: 8px;
+}
+button:hover{
+    background-color: lawngreen;
+    color: green;
+}
